@@ -1,0 +1,83 @@
+body {
+  margin: 0em;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color: #e9eddb;
+}
+ul {
+  list-style-type: none;
+}
+#page-heading {
+  color: #a1467a;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+input[type="text"] {
+  border: none;
+  font-size: 1.6rem;
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #e9eddb;
+
+  border-bottom: 1px solid grey;
+}
+input[type="text"]:focus,
+button:focus {
+  /* border: none; */
+  outline: none;
+}
+
+button {
+  font-size: 1.6rem;
+  border-radius: 6px;
+  background-color: #a1467a;
+  color: white;
+}
+
+.entry {
+  background-color: #5dabbd;
+  /* margin: 20px 0 20px 0; */
+  height: 50px;
+  width: 600px;
+  margin: auto;
+  margin-top: 4px;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li :hover {
+  background-color: #5990a8;
+}
+
+p {
+  display: inline;
+  font-size: 1.6rem;
+}
+.name {
+  text-align: left;
+}
+.name,
+.phone {
+  /* margin-left: 4p; */
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #181a22;
+  margin-right: -60px;
+  width: 46%;
+}
+
+.delete {
+  width: 8%;
+}
+.delete a {
+  color: #a1467a;
+}
+.delete a:visited {
+  color: #a1467a;
+}
