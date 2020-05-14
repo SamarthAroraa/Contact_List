@@ -19,20 +19,7 @@ app.get("/", function (req, res) {
 
 //delete contact
 
-var contactList = [
-  {
-    name: "Samarth",
-    phone: "9821156765",
-  },
-  {
-    name: "Tony Stark",
-    phone: "30003000",
-  },
-  {
-    name: "Thor",
-    phone: "123453245",
-  },
-];
+var contactList = [];
 app.get("/delete-contact/:phone", function (req, res) {
   // console.log(req.params);
   let phone = req.params.phone;

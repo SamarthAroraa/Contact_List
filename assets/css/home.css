@@ -76,7 +76,11 @@ p {
   width: 8%;
 }
 .delete a {
+  visibility: hidden;
   color: #a1467a;
+}
+li:hover .delete a {
+  visibility: visible;
 }
 .delete a:visited {
   color: #a1467a;
